@@ -1,3 +1,3 @@
 # Unifor_
 ## Sub-título
-Repositório das diciplinas
+Repositório das diciplinas ministradas 
