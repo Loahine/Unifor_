@@ -12,6 +12,7 @@ C-->D[M=A+B+C+D]
 D-->E[M=M/4]
 E-->F([Fim])
 ```
+
 ### Pseudocódigo 
 ```mermaid
 	ALGORITMO media_inteiros
@@ -23,6 +24,7 @@ E-->F([Fim])
 	M<--M/4
 	FIM
 ```
+
 ### Teste
 |numero|soma |media|
 |--|--|--|
@@ -41,8 +43,9 @@ C-->D["F=(9/5)C+32"]
 D-->E{{F}}
 E-->F([Fim])
 ```
+
 ### Pseudocódigo
-```
+```mermaid
 	ALGORÍTMO temperatura
 	DECLARE C,F NUMÉRICO
 	ESCREVA “Digite a temperatura”
@@ -51,6 +54,7 @@ E-->F([Fim])
 	ESCREVA F
 	FIM_ALGORITMO
 ```
+
 ## Lista2_questão3
 ### Fluxograma
 ```mermaid
@@ -61,8 +65,9 @@ C-->D[qmili=qpol*25.4mm]
 D-->E{{"Quantidade de chuva em milímetros: " qmili}}
 E-->F([Fim])
 ```
+
 ### Pseudocódigo
-```
+```mermaid
 	ALGORITMO pol_to_mili
 	DECLARE qpol, qmili NUMERICO float >= 0
 	INICIO
@@ -72,6 +77,7 @@ E-->F([Fim])
 	ESCREVA "Quantidade de chuva em milímetros:" qmili
 	FIM_ALGORITMO
 ```
+
 ## Lista2_questão4
 ### Fluxograma
 ```mermaid
@@ -82,6 +88,7 @@ C-->D["custo_consumidor=custo_fabrica+(0,45*custo_fabrica)+(0,12*custo_fabrica)"
 D-->E{{"Custo do consumidor: " custo_consumidor}}
 E-->F([Fim])
 ```
+
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO custo_carro
@@ -94,6 +101,7 @@ E-->F([Fim])
 	ESCREVA "Custo do consumidor:" custo_consumidor
 	FIM
 ```
+
 ## Lista2_questão5
 ### Fluxograma
 ```mermaid
@@ -104,6 +112,7 @@ C-->D[numero_quadrado=numero**2]
 D-->E{{"numero ao quadrado é: "numero_quadrado}}
 E-->F([Fim])
 ```
+
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO numero_ao_quadrado
@@ -114,8 +123,8 @@ E-->F([Fim])
 	numero_quadrado <-- numero * numero
 	ESCREVA "numero ao quadrado é:" numero_quadrado
 	FIM
-	
 ```
+
 ## Lista2_questão6
 ### Fluxograma
 ```mermaid
@@ -126,8 +135,8 @@ C-->D["total=(qhburg*3)+(qchees*2.50)+(qfritas*2.50)+(qrefri*1)+(qmilk*3)"]
 D-->E{{"Total a pagar: R$" total }}
 E-->F([fim])
 ```
-### Pseudocódigo
 
+### Pseudocódigo
 ```mermaid
 	ALGORITMO contafinal
 	DECLARE qhburg, qchees, qfritas, qrefri, qmilk NUMERICO
@@ -139,6 +148,7 @@ E-->F([fim])
 	ESCREVA "Total a pagar: R$" total
 	FIM
 ```
+
 ## Lista2_questão7
 ### Fluxograma
 ```mermaid
@@ -152,6 +162,7 @@ F-->G[salario=500+comissao]
 G-->H{{salario}}
 H-->I([Fim])
 ```
+
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO salario-vendendor
@@ -167,6 +178,7 @@ H-->I([Fim])
 	ESCREVA "Seu salário:" salario
 	Fim
 ```
+
 ## Lista2_questão8
 ### Fluxograma
 ```mermaid
@@ -181,6 +193,7 @@ G-->H["media=((notaprova*2)+notaqualita)/3"]
 H-->I{{media}}
 I-->J([Fim])
 ```
+
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO media-rla
@@ -197,6 +210,7 @@ I-->J([Fim])
 	ESCREVA media
 		FIM
 ```
+
 ## Lista2_questão9
 ### Fluxograma
 ```mermaid
@@ -211,6 +225,7 @@ G-->H{{"EMAIL: "email}}
 H-->I{{"IDADE: "idade}}
 I-->J([Fim])
 ```
+
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO ficha_escricao
@@ -227,6 +242,7 @@ I-->J([Fim])
 	ESCREVA "IDADE" idade
 	FIM
 ```
+
 ## Lista2_questão10
 ### Fluxograma
 ```mermaid
@@ -239,6 +255,7 @@ E-->F[perimetro=2*Ⲡ*raio]
 F-->G{{"O perímetro do círculo é:" perimetro}}
 G-->H([Fim])
 ```
+
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO apcirculo
@@ -254,6 +271,7 @@ G-->H([Fim])
 	ESCREVA "O perímetro do círculo é:" perimetro
 	FIM
 ```
+
 ## Lista2_questão11
 ### Fluxograma
 ```mermaid
@@ -270,6 +288,7 @@ I-->J[d=numero**1/3]
 J-->K{{d}}
 K-->L([Fim])
 ```
+
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO program
@@ -291,6 +310,7 @@ K-->L([Fim])
 	FIM_SE
 	FIM
 ```
+
 ## Lista2_questão12
 ### Fluxograma
 ```mermaid
@@ -316,6 +336,7 @@ M-->O{{O}}
 N-->O{{O}}
 O-->P([Fim])
 ```
+
 ### Pseudocódigo 
 ```mermaid
 	ALGORITMO ordem
@@ -340,6 +361,7 @@ O-->P([Fim])
 	ESCREVA O
 	FIM
 ```
+
 ## Lista2_questão13
 ### Fluxograma
 ```mermaid
@@ -360,9 +382,10 @@ X-->Z
 E--sim-->Y{{"Infantil A"}}
 Y-->Z([Fim])
 D--não-->Z([Fim])
-I-->Z
-V-->Z
+I-->Z([Fim])
+V-->Z([Fim])
 ```
+
 ### Pseudocódigo 
 ```mermaid
 ALGORITMO categoria 
@@ -387,6 +410,7 @@ ALGORITMO categoria
 		FIM_SE
 FIM
 ```
+
 ## Lista2_questão14
 ### Fluxograma
 ```mermaid
@@ -402,6 +426,7 @@ H-->G([Fim])
 D--sim-->I{{b}}
 I-->G([Fim])
 ```
+
 ### Pseudocodigo
 ```mermaid
 ALGORITMO menor
@@ -418,6 +443,7 @@ ESCREVA "Digite três números"
 	FIM_ESCOLHA
 FIM
 ```
+
 ## Lista2_questão15
 ### Fluxograma
 ```mermaid
@@ -430,6 +456,7 @@ E-->F([Fim])
 D--sim-->G[x = x * 2.2]
 G-->F([Fim])
 ```
+
 ### Pseudocodigo
 ```mermaid
 ALGORITMO peso
@@ -445,6 +472,7 @@ INICIO
 	ESCREVA x
 FIM
 ```
+
 ## Lista2_questão16
 ### Fluxograma
 ```mermaid
@@ -460,6 +488,7 @@ E-->I([Fim])
 G-->I([Fim])
 H-->I([Fim])
 ```
+
 ### Pseudocodigo
 ```mermaid
 ALGORITMO status
@@ -477,6 +506,7 @@ INICIO
 		FIM_ESCOLHA
 FIM
 ```
+
 ## Lista2_questão17
 ### Fluxograma
 ```mermaid
@@ -498,6 +528,7 @@ I-->M{{s}}
 K-->M{{s}}
 L-->M{{s}}
 ```
+
 ### Pseudocodigo
 ```mermaid
 ALGORITMO salário
