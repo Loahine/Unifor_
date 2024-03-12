@@ -16,7 +16,7 @@ E-->F([Fim])
 ### Pseudocódigo 
 ```mermaid
 	ALGORITMO media_inteiros
-	DECLARE A,B,C,D,M Numéricos
+	DECLARE A,B,C,D,M: Numéricos
 	INICIO
 	ESCREVA "Digite quatro números:"
 	LEIA A,B,C,D
@@ -47,7 +47,7 @@ E-->F([Fim])
 ### Pseudocódigo
 ```mermaid
 	ALGORÍTMO temperatura
-	DECLARE C,F NUMÉRICO
+	DECLARE C,F: NUMÉRICO
 	ESCREVA “Digite a temperatura”
 	LEIA C
 	F=(9/5)C+32
@@ -69,7 +69,7 @@ E-->F([Fim])
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO pol_to_mili
-	DECLARE qpol, qmili NUMERICO float >= 0
+	DECLARE qpol, qmili: NUMERICO float >= 0
 	INICIO
 	ESCREVA "Digite a quantidade de chuva em polegadas:"
 	LEIA qpol
@@ -92,7 +92,7 @@ E-->F([Fim])
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO custo_carro
-	DECLARE custo_fabrica, custo_consumidor NUMERICO float >= 0
+	DECLARE custo_fabrica, custo_consumidor: NUMERICO float >= 0
 	INICIO
 	ESCREVA "Digite custo de fábrica:"
 	LEIA custo_fabrica
@@ -116,7 +116,7 @@ E-->F([Fim])
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO numero_ao_quadrado
-	DECLARE numero, numero_quadrado NUMERICO float >=0
+	DECLARE numero, numero_quadrado: NUMERICO float >=0
 	INICIO
 	ESCREVA "Digite um número:"
 	LEIA numero
@@ -139,7 +139,7 @@ E-->F([fim])
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO contafinal
-	DECLARE qhburg, qchees, qfritas, qrefri, qmilk NUMERICO
+	DECLARE qhburg, qchees, qfritas, qrefri, qmilk: NUMERICO
     DECLARE total NUMERICO float >=0
 	INICIO
 	ESCREVA "Digite no painel a quantidade de itens consumidos:"
@@ -166,7 +166,7 @@ H-->I([Fim])
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO salario-vendendor
-	DECLARE salario, comissao, quant_carro, valor_venda NUMERICO 
+	DECLARE salario, comissao, quant_carro, valor_venda: NUMERICO 
 	float >= 0 
 	INICIO
 	ESCREVA "Digite número de carros vendidos:"
@@ -197,7 +197,7 @@ I-->J([Fim])
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO media-rla
-	DECLARE notaprova, notaqualita, media NUMERICO float >= 0
+	DECLARE notaprova, notaqualita, media: NUMERICO float >= 0
 	DECLARE nome_aluno String
 	INICIO
 	ESCREVA "Insira seu nome completo:"
@@ -229,7 +229,7 @@ I-->J([Fim])
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO ficha_escricao
-	DECLARE nome, curso, email String
+	DECLARE nome, curso, email: String
 	DECLARE matricula, idade NUMERICO int 
 	INICIO
 	ESCREVA "Digite nome, curso, email, matricula, idade: "
@@ -259,7 +259,7 @@ G-->H([Fim])
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO apcirculo
-	DECLARE area, raio, perimetro NUMERICO float =>0
+	DECLARE area, raio, perimetro: NUMERICO float =>0
 	DECLARE area metro**2
 	DECLARE raio, perimetro metro
 	INICIO
@@ -292,7 +292,7 @@ K-->L([Fim])
 ### Pseudocódigo
 ```mermaid
 	ALGORITMO program
-	DECLARE numero, a, b, c, d NUMERICO float >=0
+	DECLARE numero, a, b, c, d: NUMERICO float >=0
 	INICIO
 	ESCREVA "Digite número:"
 	LEIA numero
@@ -340,7 +340,7 @@ O-->P([Fim])
 ### Pseudocódigo 
 ```mermaid
 	ALGORITMO ordem
-	DECLARE O, a, b, c NUMÉRICO 
+	DECLARE O, a, b, c: NUMÉRICO 
 	INICIO
 	ESCREVA "Digite três numeros: "
 	LEIA a, b, c
@@ -389,7 +389,7 @@ V-->Z([Fim])
 ### Pseudocódigo 
 ```mermaid
 ALGORITMO categoria 
-	DECLARE i NUMERICO
+	DECLARE i: NUMERICO
 	INICIO
 	ESCREVA "Digite a idade: "
 	LEIA i
@@ -430,7 +430,7 @@ I-->G([Fim])
 ### Pseudocodigo
 ```mermaid
 ALGORITMO menor
-DECLARE a,b,c NUMERICO
+DECLARE a,b,c: NUMERICO
 INICIO
 ESCREVA "Digite três números"
 	ESCOLHA 
@@ -461,7 +461,7 @@ H-->F([Fim])
 ### Pseudocodigo
 ```mermaid
 ALGORITMO peso
-DECLARE x NUMERICO
+DECLARE x: NUMERICO
 INICIO
 	ESCREVA "Digite o numero"
 	LEIA x
@@ -493,7 +493,7 @@ H-->I([Fim])
 ### Pseudocodigo
 ```mermaid
 ALGORITMO status
-DECLARE x NUMERICO
+DECLARE x: NUMERICO
 INICIO
 	ESCREVA "Digite um numero"
 	LEIA x
@@ -533,7 +533,7 @@ L-->M{{s}}
 ### Pseudocodigo
 ```mermaid
 ALGORITMO salário
-DECLARE s NUMERICO
+DECLARE s: NUMERICO
 INICIO
 	ESCREVA "Digite o salario bruto"
 	LEIA s
@@ -576,7 +576,7 @@ L-->M([Fim])
 ### Pseudocodigo
 ```mermaid
 ALGORITMO conversao
-DECLARE x NUMERICO float<=10
+DECLARE x: NUMERICO float<=10
 INICIO
 	ESCREVA "digite a nota"
 	LEIA x
@@ -612,7 +612,7 @@ H-->I([Fim])
 ### Pseudocodigo
 ```mermaid
 ALGORITMO definição
-DECLARE x NUMERICO
+DECLARE x: NUMERICO
 INICIO
 	ESCREVA "digite o numero"
 	LEIA x
@@ -654,7 +654,7 @@ K-->Q([Fim])
 ### Pseudocodigo
 ```mermaid
 ALGORITMO operação
-DECLARE a, b, c NUMÉRICO 
+DECLARE a, b, c: NUMÉRICO 
 DECLARE o STRING 
 INICIO 
 ESCREVA "Digite dois números:" 
