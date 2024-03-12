@@ -14,7 +14,7 @@ E-->F([Fim])
 ```
 
 ### Pseudocódigo 
-```mermaid
+```
 	ALGORITMO media_inteiros
 	DECLARE A,B,C,D,M: Numéricos
 	INICIO
