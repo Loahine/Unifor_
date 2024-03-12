@@ -15,14 +15,14 @@ E-->F([Fim])
 
 ### Pseudocódigo 
 ```mermaid
-1	ALGORITMO media_inteiros
-2	DECLARE A,B,C,D,M: Numéricos
-3	INICIO
-4	ESCREVA "Digite quatro números:"
-5	LEIA A,B,C,D
-6	M<--A+B+C+D
-7	M<--M/4
-8	FIM
+	ALGORITMO media_inteiros
+	DECLARE A,B,C,D,M: Numéricos
+	INICIO
+	ESCREVA "Digite quatro números:"
+	LEIA A,B,C,D
+	M<--A+B+C+D
+	M<--M/4
+	FIM
 ```
 
 ### Teste
