@@ -454,7 +454,8 @@ C-->D{x>=0}
 D--não-->E{{"numero nao aceito"}}
 E-->F([Fim])
 D--sim-->G[x = x * 2.2]
-G-->F([Fim])
+G-->H{{x}}
+H-->F([Fim])
 ```
 
 ### Pseudocodigo
