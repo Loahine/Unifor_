@@ -2,7 +2,7 @@
 **Nome**: Luiza
 **Nome de disciplina**: Raciocínio lógico algorítmico
 
-## Exercício 3
+## Q1
 ### Fluxograma
 ```mermaid
 flowchart TD
