@@ -6,15 +6,15 @@
 ### Fluxograma
 ```mermaid
 flowchart TD
-A([Início])-->B{{Digite um número}}
+A([Início])-->B{{"Digite um número"}}
 B-->C[\N\]
 C-->D{N>=0}
-D--NÃO-->E[O número não é positivo]
+D--NÃO-->E{{"O número não é positivo"}}
 E-->Z([Fim])
 D--SIM-->F[R=N%2]
 F-->G{R==0}
-G--NÃO-->H[O número é ímpar]
-G--SIM-->I[O número é par]
+G--NÃO-->H{{"O número é ímpar"}}
+G--SIM-->I{{"O número é par"}}
 H-->Z([Fim])
 I-->Z([Fim])
 ```
@@ -31,13 +31,13 @@ I-->Z([Fim])
 9 	SENÃO
 10		ESCREVA ”NUMERO É IMPAR”
 11 	SENÃO
-12 		ESCREVA “O NÚMERO NÃO É POSITIVO”0
+12 		ESCREVA “O NÚMERO NÃO É POSITIVO”
 13 FIM_ALGORITMO
 ```
 ### Teste
 | numero | numero >= 0 | resto | resto == 0 | Saída |
 | -- | -- | -- | -- | -- | 
-| -1 | F |   |   | "O número deve ser postivo!" |
-| 0  | V | 0 | V | "O número é par!" |
-| 13 | V | 1 | F | "O número é impar!" |
-| 30 | V | 0 | V | "O número é par!" |
+| -1 | F |   |   | "O número não é positivo" |
+| 0  | V | 0 | V | "O número é par" |
+| 13 | V | 1 | F | "O número é impar" |
+| 30 | V | 0 | V | "O número é par" |
