@@ -41,3 +41,81 @@ I-->Z([Fim])
 | 0  | V | 0 | V | "O número é par" |
 | 13 | V | 1 | F | "O número é impar" |
 | 30 | V | 0 | V | "O número é par" |
+
+## Q2
+### fluxograma 
+```mermaid 
+flowchart TD
+A([ínicio])-->B{{"digite o salario atual"}}
+B-->C[/X/]
+C-->D{X<=500}
+D--não-->E[S=X+X*10%]
+D--sim-->F[S=X+X*20%]
+E-->G{{"salario final: "S}}
+F-->G
+G-->H([fim])
+```
+### Pseudocodigo
+```
+Algoritmo ContaAprovacoes
+DECLARE X, S NUMÉRICO
+ESCREVA "digite o salario atual"
+LEIA X
+	SE X<=500 ENTÃO
+		S⇐X+(X*20%)
+	SENÃO 
+		S⇐X+(X*10% )
+	FIM_SE
+ESCREVA "salario final: " S
+FIM_ALGORITMO
+```
+## Q3
+### fluxograma
+```mermaid
+flowchart TD
+A([INICIO]) -->B[\a,b\]
+B-->C{{"digite as duas notas"}}
+C-->D{"(a+b)/2>=7"}
+D--não-->E{{"reprovado"}}
+D--sim-->F{{"aprovado"}}
+E-->Z([FIM])
+F-->Z([FIM])
+```
+### Pseudocodigo
+```
+ALGORITMO media
+DECLARE a, b: NÚMERICO
+ESCREVA "digite as duas notas"
+LEIA a,b
+	SE [(a+b)/2>=7] ENTÃO
+		ESCREVA "APROVADO"
+	SENÃO ESCREVA "REPROVADO"
+FIM_ALGARITMO
+```
+## Q4
+### fluxograma
+```mermaid
+flowchart TD
+A([início])-->B{{"digite a idade"}}
+B-->C[/x/]
+C-->D{x>=18}
+D--não-->E[F=18-X]
+E-->F{{"falta F anos para o candidato poder tirar CNH"}}
+D--sim-->G{{"candidato pode tirar CNH"}}
+F-->Z([fim])
+G-->Z([fim])
+```
+### pseudocodigo
+```
+ALGORITMO CNH
+DECLARE x,F: NUMÉRICO
+ESCREVA"digite a idade"
+LEIA x
+	SE x>=18 ENTÃO
+		ESCREVA "PODE TIRAR CNH"
+	SENÃO
+		F⇐18-x
+	FIM_SE
+ESCREVA "FALTAM"F"ANO(s) PARA PODER TIRAR CNH" 
+FIM_ALGORITMO
+```
