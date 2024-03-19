@@ -69,6 +69,12 @@ LEIA X
 ESCREVA "salario final: " S
 FIM_ALGORITMO
 ```
+### Teste
+salario | <=500 | saida
+-|-|-
+500 | sim | 600
+444| sim | 532,8
+800| não | 960
 ## Q3
 ### fluxograma
 ```mermaid
@@ -92,6 +98,11 @@ LEIA a,b
 	SENÃO ESCREVA "REPROVADO"
 FIM_ALGARITMO
 ```
+notas | media | >=7 | saida
+-|-|-|-
+8,8| 8 | sim | aprovado
+5,10 | 7.5 | sim | aprovado
+5.5,7.5 | 6.5 | não | reprovado
 ## Q4
 ### fluxograma
 ```mermaid
@@ -100,8 +111,8 @@ A([início])-->B{{"digite a idade"}}
 B-->C[/x/]
 C-->D{x>=18}
 D--não-->E[F=18-X]
-E-->F{{"falta F anos para o candidato poder tirar CNH"}}
-D--sim-->G{{"candidato pode tirar CNH"}}
+E-->F{{"não, pois falta: "F}}
+D--sim-->G{{"pode tirar CNH"}}
 F-->Z([fim])
 G-->Z([fim])
 ```
@@ -112,10 +123,16 @@ DECLARE x,F: NUMÉRICO
 ESCREVA"digite a idade"
 LEIA x
 	SE x>=18 ENTÃO
-		ESCREVA "PODE TIRAR CNH"
+		ESCREVA "pode tirar CNH"
 	SENÃO
 		F⇐18-x
 	FIM_SE
-ESCREVA "FALTAM"F"ANO(s) PARA PODER TIRAR CNH" 
+ESCREVA "não, pois falta: "F" 
 FIM_ALGORITMO
 ```
+### Teste
+idade | >=18 | falta | saida
+-|-|-|-
+18 |sim | - | pode tirar CNH
+20 | sim | - | pode tirar CNH
+14| não | 4 |não, pois falta: 4
