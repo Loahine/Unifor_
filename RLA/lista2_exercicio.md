@@ -95,15 +95,15 @@ INICIO
 ESCREVA "Digite dois números:" 
 LEIA a, b 
 ESCREVA "Digite a operação (+, -, *, /):" 
-LEIA o 
+LEIA "o"
 	ESCOLHA 
-		CASO (o==+)
+		CASO ("o"==+) ENTÃO
 			c <-- a + b 
-		CASO (0==-)
+		CASO ("o"==-) ENTÃO
 			c <-- a - b 
-		CASO (o==*)
+		CASO ("o"==*) ENTÃO
 			c <-- a * b 
-		CASO (o==/)
+		CASO ("o"==/) ENTÃO
 			SE (b != 0) ENTÃO 
 				c <-- a / b 
 			SENÃO 
